@@ -9,7 +9,7 @@ ftpbot.pl -x
 
 Product Description:
 --------------------
-Perl script written by Andrew Nisbet for Edmonton Public Library, distributable by the enclosed license.
+Perl script written by Andrew Nisbet for Edmonton Public Library, distributeable by the enclosed license.
 Script handles FTP of files. It has some handy features like test mode to do everything but actually 'put'
 the file. It has a debug mode to see what you are setting. The applicaiton does not remove the local files
 on completion.
