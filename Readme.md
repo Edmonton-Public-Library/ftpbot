@@ -65,11 +65,15 @@ Read all the configuration requirements and FTP to the specified site.
 ftpbot.pl -cconfig.file
 ```
 
-Use configs in ftp.cfg, but the local directory is specified on command line. If the 'local dir'
+Use configs in ftp.cfg, but the local directory is specified on command line. If the 'local dir' is set in the config file it will override the command line option.
 ```
-  ftpbot.pl -cftp.cfg -l'/s/sirsi/Unicorn/ftp_stuff' is set in the config file it will override the command line option.
+  ftpbot.pl -cftp.cfg -l'/s/sirsi/Unicorn/ftp_stuff' 
 ```
 
+Do everything but actually send the file:
+```
+ftpbot.pl -cftp.cfg -t
+```
 
 Repository Information:
 -----------------------
