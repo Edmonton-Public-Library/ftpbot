@@ -2,7 +2,7 @@
 # Makefile for project deleteme 
 # Created: Thu Nov 19 14:26:00 MST 2015
 #
-#<one line to give the program's name and a brief idea of what it does.>
+# Moves this associated application to test or production.
 #    Copyright (C) 2015  Andrew Nisbet
 #
 # This program is free software; you can redistribute it and/or modify
@@ -28,7 +28,7 @@
 PRODUCTION_SERVER=eplapp.library.ualberta.ca
 TEST_SERVER=edpl-t.library.ualberta.ca
 USER=sirsi
-REMOTE=~/Unicorn/EPLwork/anisbet/
+REMOTE=/s/sirsi/Unicorn/Bincustom
 LOCAL=~/projects/ftpbot/
 APP=ftpbot.pl
 ARGS=-x
