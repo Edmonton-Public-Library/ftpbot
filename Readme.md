@@ -33,6 +33,9 @@ The following is a well-formed configuration file. Trailing spaces on 'local dir
 server: 198.161.203.76
 user:ilsxml
 # remote dir: DLA Export/Pull/
+
+
+password:xxxxxxxxxx
 ```
 
 Flags
@@ -54,9 +57,6 @@ Flags
  -x:             This (help) message.
 ```
 
-
-password:xxxxxxxxxx
-```
 
 Examples
 --------
